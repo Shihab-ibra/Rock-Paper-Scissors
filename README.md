@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-Simple Rock Paper Scissors game played from the console.
+Rock paper scissors game created with HTML, CSS and JS.
