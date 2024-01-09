@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+header {
+    font-size: 28px;
+}
+
+.scoreBoard {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.pBadge,
+.cBadge {
+    margin: 0 30px;
+}
+
+.result {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.options {
+    border: 1px white;
+    border-radius: 50%;
+    font-size: 27px;
+    font-weight: 700;
+    height: 150px;
+    margin: 0 10px;
+    transition: 0.3s ease;
+    width: 150px;
+}
+
+.options:hover {
+    background-color: #5f6670;
+    cursor: pointer;
+}
+
+.action-msg {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.resetBtn {
+    background-color: #3c3ce0;
+    border: 1px white;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.resetBtn:hover {
+    background-color: #3737ce;
+    cursor: pointer;
+}
